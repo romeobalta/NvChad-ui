@@ -41,7 +41,7 @@ M.mode = function()
   local current_mode = "%#" .. modes[m][2] .. "#" .. "  " .. modes[m][1]
   local mode_sep1 = "%#" .. modes[m][2] .. "Sep" .. "#" .. sep_r
 
-  return current_mode .. mode_sep1 .. "%#ST_EmptySpace#" .. sep_r
+  return current_mode .. mode_sep1 .. "%#St_EmptySpace#" .. sep_r
 end
 
 M.fileInfo = function()
